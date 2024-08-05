@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Style Hub</title>
+    <link rel="stylesheet" href="products.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="Icons/icono-pagina.png" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo-container">
+          <a href="#" id="logo-link">
+            <img src="Images/Logo.png" alt="Logo de la tienda" class="logo" />
+          </a>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+          </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle Menu">
+          <span class="hamburger"></span>
+        </button>
+      </header>
+      <main>
+        <div class="search-container">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Buscar productos..."
+            class="hidden"
+          />
+          <button id="search-button">Buscar</button>
+        </div>
+        <div class="category-buttons">
+          <button class="category" data-category="All">Todos</button>
+          <button class="category" data-category="Buzos">Buzos</button>
+          <button class="category" data-category="Camisetas">Camisetas</button>
+          <button class="category" data-category="Gorras">Gorras</button>
+          <button class="category" data-category="Oversize">Oversize</button>
+          <button class="category" data-category="Polo">Polo</button>
+          <button class="category" data-category="Regular">Regular</button>
+        </div>
+        <div class="product-container">
+          <!-- Buzos -->
+          <div class="product" data-id="1">
+            <img src="Buzos/Buzo1.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Buzo 1</h3>
+              <p class="product-category" data-category="Buzos"></p>
+            </div>
+          </div>
+          <div class="product" data-id="2">
+            <img src="Buzos/Buzo2.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Buzo 2</h3>
+              <p class="product-category" data-category="Buzos"></p>
+            </div>
+          </div>
+          <div class="product" data-id="3">
+            <img src="Buzos/Buzo3.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Buzo 3</h3>
+              <p class="product-category" data-category="Buzos"></p>
+            </div>
+          </div>
+          <div class="product" data-id="4">
+            <img src="Buzos/Buzo4.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Buzo 4</h3>
+              <p class="product-category" data-category="Buzos"></p>
+            </div>
+          </div>
+          <div class="product" data-id="5">
+            <img src="Buzos/Buzo5.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Buzo 5</h3>
+              <p class="product-category" data-category="Buzos"></p>
+            </div>
+          </div>
+          <div class="product" data-id="6">
+            <img src="Buzos/Buzo6.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Buzo 6</h3>
+              <p class="product-category" data-category="Buzos"></p>
+            </div>
+          </div>
+
+          <!-- Camisetas -->
+          <div class="product" data-id="7">
+            <img
+              src="Camisetas/Camiseta1.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Camiseta 1</h3>
+              <p class="product-category" data-category="Camisetas"></p>
+            </div>
+          </div>
+          <div class="product" data-id="8">
+            <img src="Camisetas/Camiseta2.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Camiseta 2</h3>
+              <p class="product-category" data-category="Camisetas"></p>
+            </div>
+          </div>
+          <div class="product" data-id="9">
+            <img src="Camisetas/Camiseta3.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Camiseta 3</h3>
+              <p class="product-category" data-category="Camisetas"></p>
+            </div>
+          </div>
+          <div class="product" data-id="10">
+            <img src="Camisetas/Camiseta4.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Camiseta 4</h3>
+              <p class="product-category" data-category="Camisetas"></p>
+            </div>
+          </div>
+          <div class="product" data-id="11">
+            <img src="Camisetas/Camiseta5.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Camiseta 5</h3>
+              <p class="product-category" data-category="Camisetas"></p>
+            </div>
+          </div>
+
+          <!-- Gorras -->
+          <div class="product" data-id="12">
+            <img src="Gorras/Gorra1.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Gorra 1</h3>
+              <p class="product-category" data-category="Gorras"></p>
+            </div>
+          </div>
+          <div class="product" data-id="13">
+            <img src="Gorras/Gorra2.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Gorra 2</h3>
+              <p class="product-category" data-category="Gorras"></p>
+            </div>
+          </div>
+          <div class="product" data-id="14">
+            <img src="Gorras/Gorra3.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Gorra 3</h3>
+              <p class="product-category" data-category="Gorras"></p>
+            </div>
+          </div>
+          <div class="product" data-id="15">
+            <img src="Gorras/Gorra4.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Gorra 4</h3>
+              <p class="product-category" data-category="Gorras"></p>
+            </div>
+          </div>
+          <div class="product" data-id="16">
+            <img src="Gorras/Gorra5.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Gorra 5</h3>
+              <p class="product-category" data-category="Gorras"></p>
+            </div>
+          </div>
+          <div class="product" data-id="17">
+            <img src="Gorras/Gorra6.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Gorra 6</h3>
+              <p class="product-category" data-category="Gorras"></p>
+            </div>
+          </div>
+          <div class="product" data-id="18">
+            <img src="Gorras/Gorra7.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Gorra 7</h3>
+              <p class="product-category" data-category="Gorras"></p>
+            </div>
+          </div>
+          <div class="product" data-id="19">
+            <img src="Gorras/Gorra8.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Gorra 8</h3>
+              <p class="product-category" data-category="Gorras"></p>
+            </div>
+          </div>
+          <div class="product" data-id="20">
+            <img src="Gorras/Gorra9.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Gorra 9</h3>
+              <p class="product-category" data-category="Gorras"></p>
+            </div>
+          </div>
+
+          <!-- Oversize -->
+          <div class="product" data-id="21">
+            <img src="Oversize/Oversize1.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Oversize 1</h3>
+              <p class="product-category" data-category="Oversize"></p>
+            </div>
+          </div>
+
+          <div class="product" data-id="22">
+            <img src="Oversize/Oversize2.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Oversize 2</h3>
+              <p class="product-category" data-category="Oversize"></p>
+            </div>
+          </div>
+          <div class="product" data-id="23">
+            <img src="Oversize/Oversize3.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Oversize 3</h3>
+              <p class="product-category" data-category="Oversize"></p>
+            </div>
+          </div>
+          <div class="product" data-id="24">
+            <img src="Oversize/Oversize4.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Oversize 4</h3>
+              <p class="product-category" data-category="Oversize"></p>
+            </div>
+          </div>
+          <div class="product" data-id="25">
+            <img src="Oversize/Oversize5.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Oversize 5</h3>
+              <p class="product-category" data-category="Oversize"></p>
+            </div>
+          </div>
+          <div class="product" data-id="26">
+            <img src="Oversize/Oversize6.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Oversize 6</h3>
+              <p class="product-category" data-category="Oversize"></p>
+            </div>
+          </div>
+          <div class="product" data-id="27">
+            <img src="Oversize/Oversize7.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Oversize 7</h3>
+              <p class="product-category" data-category="Oversize"></p>
+            </div>
+          </div>
+          <div class="product" data-id="28">
+            <img src="Oversize/Oversize8.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Oversize 8</h3>
+              <p class="product-category" data-category="Oversize"></p>
+            </div>
+          </div>
+
+          <!-- Polo -->
+          <div class="product" data-id="29">
+            <img src="Polo/Polo1.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Polo 1</h3>
+              <p class="product-category" data-category="Polo"></p>
+            </div>
+          </div>
+          <div class="product" data-id="30">
+            <img src="Polo/Polo2.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Polo 2</h3>
+              <p class="product-category" data-category="Polo"></p>
+            </div>
+          </div>
+          <div class="product" data-id="31">
+            <img src="Polo/Polo3.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Polo 3</h3>
+              <p class="product-category" data-category="Polo"></p>
+            </div>
+          </div>
+          <div class="product" data-id="32">
+            <img src="Polo/Polo4.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Polo 4</h3>
+              <p class="product-category" data-category="Polo"></p>
+            </div>
+          </div>
+          <div class="product" data-id="33">
+            <img src="Polo/Polo5.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Polo 5</h3>
+              <p class="product-category" data-category="Polo"></p>
+            </div>
+          </div>
+          <div class="product" data-id="34">
+            <img src="Polo/Polo6.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Polo 6</h3>
+              <p class="product-category" data-category="Polo"></p>
+            </div>
+          </div>
+          <div class="product" data-id="35">
+            <img src="Polo/Polo7.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Polo 7</h3>
+              <p class="product-category" data-category="Polo"></p>
+            </div>
+          </div>
+          <div class="product" data-id="36">
+            <img src="Polo/Polo8.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Polo 8</h3>
+              <p class="product-category" data-category="Polo"></p>
+            </div>
+          </div>
+          <div class="product" data-id="37">
+            <img src="Polo/Polo9.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Polo 9</h3>
+              <p class="product-category" data-category="Polo"></p>
+            </div>
+          </div>
+          <div class="product" data-id="38">
+            <img src="Polo/Polo10.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Polo 10</h3>
+              <p class="product-category" data-category="Polo"></p>
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <!-- Regular -->
+          <div class="product" data-id="39">
+            <img src="Regular/Regular1.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Regular 1</h3>
+              <p class="product-category" data-category="Regular"></p>
+            </div>
+          </div>
+          <div class="product" data-id="40">
+            <img src="Regular/Regular2.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Regular 2</h3>
+              <p class="product-category" data-category="Regular"></p>
+            </div>
+          </div>
+          <div class="product" data-id="41">
+            <img src="Regular/Regular3.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Regular 3</h3>
+              <p class="product-category" data-category="Regular"></p>
+            </div>
+          </div>
+          <div class="product" data-id="42">
+            <img src="Regular/Regular4.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Regular 4</h3>
+              <p class="product-category" data-category="Regular"></p>
+            </div>
+          </div>
+          <div class="product" data-id="43">
+            <img src="Regular/Regular5.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Regular 5</h3>
+              <p class="product-category" data-category="Regular"></p>
+            </div>
+          </div>
+          <div class="product" data-id="44">
+            <img src="Regular/Regular6.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Regular 6</h3>
+              <p class="product-category" data-category="Regular"></p>
+            </div>
+          </div>
+          <div class="product" data-id="45">
+            <img src="Regular/Regular7.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Regular 7</h3>
+              <p class="product-category" data-category="Regular"></p>
+            </div>
+          </div>
+          <div class="product" data-id="46">
+            <img src="Regular/Regular8.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Regular 8</h3>
+              <p class="product-category" data-category="Regular"></p>
+            </div>
+          </div>
+          <div class="product" data-id="47">
+            <img src="Regular/Regular9.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Regular 9</h3>
+              <p class="product-category" data-category="Regular"></p>
+            </div>
+          </div>
+          <div class="product" data-id="48">
+            <img src="Regular/Regular10.jpg" alt="Producto 2" class="product-image" loading="lazy"/>
+            <div class="product-details">
+              <h3 class="product-name">Regular 10</h3>
+              <p class="product-category" data-category="Regular"></p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    
+
+
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-product-details">
+          <img id="modal-main-image" src="" alt="Producto" class="main-image" />
+          <div id="modal-thumbnails" class="thumbnails"></div>
+          <div class="product-info">
+            <h2 id="modal-product-name"></h2>
+            <p id="modal-product-price"></p>
+            <p id="modal-product-description"></p>
+            <div class="product-options">
+              <div class="tallas">
+                <div id="modal-product-tallas"></div>
+              </div>
+            </div>
+            <button id="buy-button" class="buy-button">COMPRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document
+        .querySelector(".menu-toggle")
+        .addEventListener("click", function () {
+          document.querySelector(".menu").classList.toggle("menu-open");
+        });
+    </script>
+    <script src="products.js" defer></script>
+    <script src="modal.js" defer></script>
+  </body>
+</html>

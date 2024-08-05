@@ -1,0 +1,49 @@
+ 
+  .container {
+    max-width: 800px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .main {
+    margin-top: 20px;
+  }
+  
+  .miembro img {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  #equipo p {
+    margin: 0;
+  }
+  
+  #valores ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #valores li {
+    margin-bottom: 10px;
+  }
+  
+  #logros {
+    background-color: #f9f9f9;
+  }
+  
+  #logros p {
+    font-style: italic;
+    color: #777;
+  }
+  
+  #contacto {
+    background-color: #f0f0f0;
+  }
+  
+  #contacto p {
+    color: #444;
+  }
+  

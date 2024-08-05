@@ -1,0 +1,369 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gean Negro",
+    "imagen": "Buzos/Buzo1.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Buzos/Buzo1-part1.jpg", "Buzos/Buzo1-part2.jpg", "Buzos/Buzo1-part3.jpg"]
+  },
+  {
+    "id": 2,
+    "nombre": "Gean Negro",
+    "imagen": "Buzos/Buzo2.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Buzos/Buzo2-part1.jpg", "Buzos/Buzo2-part2.jpg", "Buzos/Buzo2-part3.jpg"]
+  },
+  {
+    "id": 3,
+    "nombre": "Gean Negro",
+    "imagen": "Buzos/Buzo3.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Buzos/Buzo3-part1.jpg", "Buzos/Buzo3-part2.jpg", "Buzos/Buzo3-part3.jpg"]
+  },
+  {
+    "id": 4,
+    "nombre": "Gean Negro",
+    "imagen": "Buzos/Buzo4.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Buzos/Buzo4-part1.jpg", "Buzos/Buzo4-part2.jpg", "Buzos/Buzo4-part3.jpg"]
+  },
+  {
+    "id": 5,
+    "nombre": "Gean Negro",
+    "imagen": "Buzos/Buzo5.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Buzos/Buzo5-part1.jpg", "Buzos/Buzo5-part2.jpg", "Buzos/Buzo5-part3.jpg"]
+  },
+  {
+    "id": 6,
+    "nombre": "Gean Negro",
+    "imagen": "Buzos/Buzo6.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Buzos/Buzo6-part1.jpg", "Buzos/Buzo6-part2.jpg", "Buzos/Buzo6-part3.jpg"]
+  }
+
+
+  ,
+  {
+    "id": 7,
+    "nombre": "Camiseta 1",
+    "imagen": "Camisetas/Camiseta1.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Camisetas/Camiseta1-part1.jpg", "Camisetas/Camiseta1-part2.jpg", "Camisetas/Camiseta1-part3.jpg"]
+  },
+  {
+    "id": 8,
+    "nombre": "Camiseta 2",
+    "imagen": "Camisetas/Camiseta2.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Camisetas/Camiseta2-part1.jpg", "Camisetas/Camiseta2-part2.jpg", "Camisetas/Camiseta2-part3.jpg"]
+  },
+  {
+    "id": 9,
+    "nombre": "Camiseta 3",
+    "imagen": "Camisetas/Camiseta3.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Camisetas/Camiseta3-part1.jpg", "Camisetas/Camiseta3-part2.jpg", "Camisetas/Camiseta3-part3.jpg"]
+  },
+  {
+    "id": 10,
+    "nombre": "Camiseta 4",
+    "imagen": "Camisetas/Camiseta4.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Camisetas/Camiseta4-part1.jpg", "Camisetas/Camiseta4-part2.jpg", "Camisetas/Camiseta4-part3.jpg"]
+  },
+  {
+    "id": 11,
+    "nombre": "Camiseta 5",
+    "imagen": "Camisetas/Camiseta5.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Camisetas/Camiseta5-part1.jpg", "Camisetas/Camiseta5-part2.jpg", "Camisetas/Camiseta5-part3.jpg"]
+  }
+
+
+
+
+
+  ,
+  {
+    "id": 12,
+    "nombre": "Gorra 1",
+    "imagen": "Gorras/Gorra1.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Gorras/Gorra1-part1.jpg", "Gorras/Gorra1-part2.jpg"]
+  },
+  {
+    "id": 13,
+    "nombre": "Gorra 2",
+    "imagen": "Gorras/Gorra2.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Gorras/Gorra2-part1.jpg", "Gorras/Gorra2-part2.jpg"]
+  },
+  {
+    "id": 14,
+    "nombre": "Gorra 3",
+    "imagen": "Gorras/Gorra3.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Gorras/Gorra3-part1.jpg", "Gorras/Gorra3-part2.jpg"]
+  },
+  {
+    "id": 15,
+    "nombre": "Gorra 4",
+    "imagen": "Gorras/Gorra4.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Gorras/Gorra4-part1.jpg", "Gorras/Gorra4-part2.jpg"]
+  },
+  {
+    "id": 16,
+    "nombre": "Gorra 5",
+    "imagen": "Gorras/Gorra5.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Gorras/Gorra5-part1.jpg", "Gorras/Gorra5-part2.jpg"]
+  },
+  {
+    "id": 17,
+    "nombre": "Gorra 6",
+    "imagen": "Gorras/Gorra6.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Gorras/Gorra6-part1.jpg", "Gorras/Gorra6-part2.jpg"]
+  },
+  {
+    "id": 18,
+    "nombre": "Gorra 7",
+    "imagen": "Gorras/Gorra7.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Gorras/Gorra7-part1.jpg", "Gorras/Gorra7-part2.jpg"]
+  },
+  {
+    "id": 19,
+    "nombre": "Gorra 8",
+    "imagen": "Gorras/Gorra8.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Gorras/Gorra8-part1.jpg", "Gorras/Gorra8-part2.jpg"]
+  },
+  {
+    "id": 20,
+    "nombre": "Gorra 9",
+    "imagen": "Gorras/Gorra9.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Gorras/Gorra9-part1.jpg", "Gorras/Gorra9-part2.jpg"]
+  }
+
+
+
+
+
+
+
+  ,
+  {
+    "id": 21,
+    "nombre": "Oversize 1",
+    "imagen": "Oversize/Oversize1.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Oversize/Oversize1-part1.jpg", "Oversize/Oversize1-part2.jpg","Oversize/Oversize1-part3.jpg"]
+  },
+  {
+    "id": 22,
+    "nombre": "Oversize 2",
+    "imagen": "Oversize/Oversize2.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Oversize/Oversize2-part1.jpg", "Oversize/Oversize2-part2.jpg","Oversize/Oversize2-part3.jpg"]
+  },
+  {
+    "id": 23,
+    "nombre": "Oversize 3",
+    "imagen": "Oversize/Oversize3.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Oversize/Oversize3-part1.jpg", "Oversize/Oversize3-part2.jpg","Oversize/Oversize3-part3.jpg"]
+  },
+  {
+    "id": 24,
+    "nombre": "Oversize 4",
+    "imagen": "Oversize/Oversize4.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Oversize/Oversize4-part1.jpg", "Oversize/Oversize4-part2.jpg","Oversize/Oversize4-part3.jpg"]
+  },
+  {
+    "id": 25,
+    "nombre": "Oversize 5",
+    "imagen": "Oversize/Oversize5.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Oversize/Oversize5-part1.jpg"]
+  },
+  {
+    "id": 26,
+    "nombre": "Oversize 6",
+    "imagen": "Oversize/Oversize6.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Oversize/Oversize6-part1.jpg"]
+  },
+  {
+    "id": 27,
+    "nombre": "Oversize 7",
+    "imagen": "Oversize/Oversize7.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Oversize/Oversize7-part1.jpg", "Oversize/Oversize7-part2.jpg","Oversize/Oversize7-part3.jpg"]
+  },
+  {
+    "id": 28,
+    "nombre": "Oversize 8",
+    "imagen": "Oversize/Oversize8.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Oversize/Oversize8-part1.jpg", "Oversize/Oversize8-part2.jpg","Oversize/Oversize8-part3.jpg"]
+  }
+
+
+
+
+
+
+  ,
+  {
+    "id": 29,
+    "nombre": "Polo 1",
+    "imagen": "Polo/Polo1.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Polo/Polo1-part1.jpg", "Polo/Polo1-part2.jpg","Polo/Polo1-part3.jpg"]
+  },
+  {
+    "id": 30,
+    "nombre": "Polo 2",
+    "imagen": "Polo/Polo2.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Polo/Polo2-part1.jpg", "Polo/Polo2-part2.jpg","Polo/Polo2-part3.jpg"]
+  },
+  {
+    "id": 31,
+    "nombre": "Polo 3",
+    "imagen": "Polo/Polo3.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Polo/Polo3-part1.jpg", "Polo/Polo3-part2.jpg","Polo/Polo3-part3.jpg"]
+  },
+  {
+    "id": 32,
+    "nombre": "Polo 4",
+    "imagen": "Polo/Polo4.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Polo/Polo4-part1.jpg", "Polo/Polo4-part2.jpg","Polo/Polo4-part3.jpg"]
+  },
+  {
+    "id": 33,
+    "nombre": "Polo 5",
+    "imagen": "Polo/Polo5.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Polo/Polo5-part1.jpg", "Polo/Polo5-part2.jpg","Polo/Polo5-part3.jpg"]
+  },
+  {
+    "id": 34,
+    "nombre": "Polo 6",
+    "imagen": "Polo/Polo6.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Polo/Polo6-part1.jpg", "Polo/Polo6-part2.jpg","Polo/Polo6-part3.jpg"]
+  },
+  {
+    "id": 35,
+    "nombre": "Polo 7",
+    "imagen": "Polo/Polo7.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Polo/Polo7-part1.jpg", "Polo/Polo7-part2.jpg","Polo/Polo7-part3.jpg"]
+  },
+  {
+    "id": 36,
+    "nombre": "Polo 8",
+    "imagen": "Polo/Polo8.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Polo/Polo8-part1.jpg", "Polo/Polo8-part2.jpg","Polo/Polo8-part3.jpg"]
+  },
+  {
+    "id": 37,
+    "nombre": "Polo 9",
+    "imagen": "Polo/Polo9.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Polo/Polo9-part1.jpg", "Polo/Polo9-part2.jpg","Polo/Polo9-part3.jpg"]
+  },
+  {
+    "id": 38,
+    "nombre": "Polo 10",
+    "imagen": "Polo/Polo10.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Polo/Polo10-part1.jpg", "Polo/Polo10-part2.jpg","Polo/Polo10-part3.jpg"]
+  }
+
+
+
+
+
+
+  ,
+  {
+    "id": 39,
+    "nombre": "Regular 1",
+    "imagen": "Regular/Regular1.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Regular/Regular1-part1.jpg", "Regular/Regular1-part2.jpg","Regular/Regular1-part3.jpg"]
+  },
+  {
+    "id": 40,
+    "nombre": "Regular 2",
+    "imagen": "Regular/Regular2.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Regular/Regular2-part1.jpg", "Regular/Regular2-part2.jpg","Regular/Regular2-part3.jpg"]
+  },
+  {
+    "id": 41,
+    "nombre": "Regular 3",
+    "imagen": "Regular/Regular3.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Regular/Regular3-part1.jpg", "Regular/Regular3-part2.jpg","Regular/Regular3-part3.jpg"]
+  },
+  {
+    "id": 42,
+    "nombre": "Regular 4",
+    "imagen": "Regular/Regular4.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Regular/Regular4-part1.jpg", "Regular/Regular4-part2.jpg","Regular/Regular4-part3.jpg"]
+  },
+  {
+    "id": 43,
+    "nombre": "Regular 5",
+    "imagen": "Regular/Regular5.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Regular/Regular5-part1.jpg", "Regular/Regular5-part2.jpg","Regular/Regular5-part3.jpg"]
+  },
+  {
+    "id": 44,
+    "nombre": "Regular 6",
+    "imagen": "Regular/Regular6.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Regular/Regular6-part1.jpg", "Regular/Regular6-part2.jpg","Regular/Regular6-part3.jpg"]
+  },
+  {
+    "id": 45,
+    "nombre": "Regular 7",
+    "imagen": "Regular/Regular7.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Regular/Regular7-part1.jpg", "Regular/Regular7-part2.jpg","Regular/Regular7-part3.jpg"]
+  },
+  {
+    "id": 46,
+    "nombre": "Regular 8",
+    "imagen": "Regular/Regular8.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Regular/Regular8-part1.jpg", "Regular/Regular8-part2.jpg","Regular/Regular8-part3.jpg"]
+  },
+  {
+    "id": 47,
+    "nombre": "Regular 9",
+    "imagen": "Regular/Regular9.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Regular/Regular9-part1.jpg", "Regular/Regular9-part2.jpg","Regular/Regular9-part3.jpg"]
+  },
+  {
+    "id": 48,
+    "nombre": "Regular 10",
+    "imagen": "Regular/Regular10.jpg",
+    "descripcion": "Un gean negro clásico con un diseño moderno.",
+    "imagenesAdicionales": ["Regular/Regular10-part1.jpg", "Regular/Regular10-part2.jpg","Regular/Regular10-part3.jpg"]
+  }
+]
