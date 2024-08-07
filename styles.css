@@ -20,7 +20,7 @@ header {
   background-color: #000000;
   padding: 5px;
   display: flex;
-  justify-content: center; /* Centramos el contenido */
+  justify-content: center;
   align-items: center;
   position: absolute;
   top: 0;
@@ -30,14 +30,14 @@ header {
 }
 
 .logo-container {
-  position: absolute; /* Hacemos que el logo tenga posición absoluta */
-  left: 20px; /* Ajusta según sea necesario */
+  position: absolute;
+  left: 20px;
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
   height: auto;
-  margin-left: 80px; /* Mover el logo hacia los lados */
+  margin-left: 80px;
 }
 
 /* Estilos del menú */
@@ -119,7 +119,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 40px; /* Ajusta la distancia entre el header y las imágenes */
+  margin-top: 40px;
 }
 
 .principales-group {
@@ -127,7 +127,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px; /* Ajusta el valor según el espacio deseado */
+  margin-bottom: 20px;
 }
 
 .principales-group h2 {
@@ -178,23 +178,23 @@ header {
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
-  margin-bottom: 60px; /* Ajusta el margen inferior según tus necesidades */
-  width: 100%; /* Asegúrate de que el contenedor ocupe todo el ancho disponible */
+  margin-bottom: 60px;
+  width: 100%;
 }
 
 .brand-images {
   display: flex;
-  overflow-x: hidden; /* No permite el desplazamiento horizontal en pantallas grandes */
-  overflow-y: hidden; /* Oculta el desplazamiento vertical si no es necesario */
-  white-space: nowrap; /* Evita que las imágenes se envuelvan en una nueva línea */
-  padding: 10px 0; /* Espaciado interno para evitar que las imágenes queden pegadas al borde */
-  width: 100%; /* Asegúrate de que el contenedor ocupe todo el ancho disponible */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+  width: 100%;
 }
 
 .brand-image {
-  width: 80px; /* Ajusta el tamaño de las imágenes */
+  width: 80px;
   height: auto;
-  margin: 0 10px; /* Ajusta el espaciado entre imágenes */
+  margin: 0 10px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -296,26 +296,26 @@ h1 {
   }
 
   .secundarias-group {
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 10px;
     margin-top: 100px;
   }
 
   .secundarias-group .image {
-    width: 100%; /* Ocupa todo el ancho disponible */
+    width: 100%;
     height: auto;
-    max-width: 150px; /* Tamaño reducido para móviles */
-    margin: 0 auto; /* Centra las imágenes en su contenedor */
+    max-width: 150px;
+    margin: 0 auto;
   }
 
   .brand-images {
-    overflow-x: auto; /* Permite el desplazamiento horizontal en dispositivos móviles */
+    overflow-x: auto;
   }
 
   .brand-image {
-    width: 80px; /* Ajusta el tamaño de las imágenes para móviles */
-    margin: 0 8px; /* Ajusta el espaciado entre imágenes */
+    width: 80px;
+    margin: 0 8px;
   }
 }
 
@@ -325,11 +325,11 @@ h1 {
   }
 
   .secundarias-group {
-    grid-template-columns: 1fr; /* Una columna */
+    grid-template-columns: 1fr;
   }
 
   .secundarias-group .image {
-    max-width: 100px; /* Tamaño aún más reducido para móviles pequeños */
+    max-width: 100px;
   }
 
   .brand-images {
@@ -368,29 +368,29 @@ h1 {
 /* Media Queries para Responsive Design */
 @media (max-width: 768px) {
   .secundarias-group {
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas en dispositivos móviles */
-    grid-template-rows: repeat(auto-fit, minmax(200px, auto)); /* Aumenta el tamaño de las filas */
-    gap: 15px; /* Ajusta el espacio entre las imágenes */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(200px, auto));
+    gap: 15px;
     margin-top: 100px;
   }
 
   .secundarias-group .image {
     width: 100%;
-    max-width: 200px; /* Tamaño mayor para móviles */
-    margin: 0 auto; /* Centra las imágenes en su contenedor */
+    max-width: 200px;
+    margin: 0 auto;
   }
 }
 
 @media (max-width: 480px) {
   .secundarias-group {
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
-    grid-template-rows: repeat(auto-fit, minmax(180px, auto)); /* Ajusta el tamaño de las filas */
-    gap: 10px; /* Espacio entre imágenes */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(180px, auto));
+    gap: 10px;
   }
 
   .secundarias-group .image {
     width: 100%;
-    max-width: 180px; /* Tamaño mayor para pantallas muy pequeñas */
+    max-width: 180px;
   }
 }
 
@@ -402,23 +402,23 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
-  margin-bottom: 60px; /* Ajusta el margen inferior según tus necesidades */
-  width: 100%; /* Asegúrate de que el contenedor ocupe todo el ancho disponible */
+  margin-bottom: 60px;
+  width: 100%;
 }
 
 .brand-images {
-  display: flex; /* Alinea las imágenes en una fila horizontal */
-  overflow-x: hidden; /* No permite el desplazamiento horizontal en pantallas grandes */
-  overflow-y: hidden; /* Oculta el desplazamiento vertical si no es necesario */
-  white-space: nowrap; /* Evita que las imágenes se envuelvan en una nueva línea */
-  padding: 10px 0; /* Espaciado interno para evitar que las imágenes queden pegadas al borde */
-  width: 100%; /* Asegúrate de que el contenedor ocupe todo el ancho disponible */
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+  width: 100%;
 }
 
 .brand-image {
-  width: 80px; /* Ajusta el tamaño de las imágenes */
+  width: 80px;
   height: auto;
-  margin: 0 10px; /* Ajusta el espaciado entre imágenes */
+  margin: 0 10px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -435,19 +435,19 @@ h1 {
 /* Aplicar desplazamiento horizontal en pantallas pequeñas */
 @media (max-width: 768px) {
   .brand-images {
-    overflow-x: auto; /* Permite el desplazamiento horizontal en dispositivos móviles */
+    overflow-x: auto;
   }
 
   .brand-image {
-    width: 80px; /* Ajusta el tamaño de las imágenes para móviles */
-    margin: 0 8px; /* Ajusta el espaciado entre imágenes */
+    width: 80px;
+    margin: 0 8px;
   }
 }
 
 @media (max-width: 480px) {
   .brand-image {
-    width: 60px; /* Tamaño aún más pequeño para pantallas muy pequeñas */
-    margin: 0 6px; /* Ajusta el espaciado entre imágenes */
+    width: 60px; 
+    margin: 0 6px;
   }
 }
 
@@ -460,57 +460,57 @@ h1 {
     height: auto;
     padding: 10px;
     flex-direction: column;
-    align-items: center; /* Centra los elementos dentro del header */
+    align-items: center;
   }
 
   .logo-container {
     margin-right: 0;
     margin-bottom: 10px;
-    position: static; /* Cambia la posición a estática para centrar el logo */
-    text-align: center; /* Centra el logo */
+    position: static;
+    text-align: center;
   }
 
   .logo {
     margin-left: 0;
     margin-bottom: 10px;
-    width: 150px; /* Ajusta el tamaño del logo para móviles */
+    width: 150px;
   }
 
   .menu {
-    display: none; /* Oculta el menú por defecto en dispositivos móviles */
+    display: none;
     flex-direction: column;
     width: 100%;
-    text-align: center; /* Centra las opciones del menú */
+    text-align: center;
   }
 
   .menu.menu-open {
-    display: flex; /* Muestra el menú cuando está en la clase menu-open */
+    display: flex;
   }
 
   .menu ul {
     flex-direction: column;
-    width: 100%; /* Asegúrate de que las opciones del menú ocupen todo el ancho disponible */
-    padding: 0; /* Elimina el padding */
-    margin: 0; /* Elimina el margin */
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   .menu li {
     margin-bottom: 10px;
-    width: 100%; /* Asegúrate de que cada opción del menú ocupe todo el ancho disponible */
+    width: 100%;
   }
 
   .menu li a {
-    display: block; /* Asegúrate de que los enlaces se comporten como bloques */
-    width: 100%; /* Asegúrate de que los enlaces ocupen todo el ancho disponible */
-    padding: 10px 0; /* Añade padding para centrar verticalmente */
+    display: block;
+    width: 100%;
+    padding: 10px 0;
   }
 
   .menu-toggle {
-    display: block; /* Muestra el botón del menú en dispositivos móviles */
+    display: block;
     background: none;
     border: none;
     cursor: pointer;
-    margin-bottom: 10px; /* Añade un margen inferior para separar el botón del menú de los enlaces */
+    margin-bottom: 10px;
   }
 
   .hamburger {
@@ -518,7 +518,7 @@ h1 {
     height: 3px;
     background-color: #ffffff;
     display: block;
-    margin: 5px auto; /* Centra el botón del menú horizontalmente */
+    margin: 5px auto;
     transition: all 0.3s ease-in-out;
   }
 }
@@ -529,7 +529,7 @@ h1 {
 /* Estilos para el botón del menú desplegable */
 /* Estilos generales del botón del menú */
 .menu-toggle {
-  display: none; /* Oculta el botón del menú por defecto (en PC) */
+  display: none;
   background: none;
   border: none;
   cursor: pointer;
@@ -539,7 +539,7 @@ h1 {
 /* Estilos del botón del menú para móviles */
 @media (max-width: 768px) {
   .menu-toggle {
-    display: block; /* Muestra el botón del menú en dispositivos móviles */
+    display: block;
   }
 }
 
@@ -550,7 +550,7 @@ h1 {
   background-color: #ffffff;
   display: block;
   margin: 5px auto;
-  position: relative; /* Asegura que las líneas se posicionen correctamente */
+  position: relative;
   transition: all 0.3s ease-in-out;
 }
 
@@ -588,10 +588,6 @@ h1 {
 }
 
 
-
-
-/* CSS para mejorar el footer en dispositivos móviles */
-/* CSS para mejorar el diseño en dispositivos móviles */
 /* CSS para mejorar el diseño en dispositivos móviles */
 @media (max-width: 768px) {
   .footer-container {
@@ -644,10 +640,37 @@ h1 {
 
 @media (max-width: 600px) {
   main {
-    margin-top: 200px; /* Aumenta este valor para dejar espacio suficiente en pantallas móviles */
+    margin-top: 200px;
   }
 
   #search-input {
-    width: 100%; /* Asegúrate de que el input de búsqueda ocupe todo el ancho en móviles */
+    width: 100%;
   }
+}
+
+/* Para dispositivos móviles */
+@media (max-width: 768px) {
+  .main h1 {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main h1 {
+    margin-top: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    text-align: center;
+  }
+}
+
+
+/* Asegúrate de que el contenedor de la fila esté centrado */
+#footer .row.align-items-center.justify-content-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
